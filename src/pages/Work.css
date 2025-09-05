@@ -24,6 +24,7 @@
     color: rgb(239, 239, 239);
     flex: 1; 
     margin-right: 100px;
+    line-height: 1.6;
 }
 
 .list {
