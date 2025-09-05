@@ -1,5 +1,5 @@
 import './Home.css'
-import backgroundImage from '../assets/mypic.jpeg'
+import backgroundImage from '../assets/mypic2.JPG'
 export default function Home() {
     return (
         <div className="home-split">
