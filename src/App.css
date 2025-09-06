@@ -26,3 +26,15 @@ main {
   padding: 1rem;
 }
 
+.section-spacing {
+  margin-bottom: 80px;
+}
+
+.main-title {
+  color: #cfaef2; 
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 80px;
+  
+}
+

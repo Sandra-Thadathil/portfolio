@@ -1,0 +1,38 @@
+.project-container {
+    color: rgb(194, 194, 187);
+    font-size: larger;
+    margin: 30px;
+    line-height: 1.2;
+}
+
+.individual-projects {
+    margin-bottom: 20px; 
+    padding: 20px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto; 
+    background-color:black;
+    margin-bottom: 60px; 
+    padding: 20px 100px;
+}
+.project-title {
+    font-size: xx-large;
+    color:white;
+    line-height: 1.6;
+     text-align: center;
+}
+.project-description{
+    color: rgb(194, 194, 187);
+    font-size: x-large;
+    line-height: 1.6;
+}
+.project-image {
+    display: block;          
+    margin: 0 auto;   
+    width: 100%;            
+    max-width: 1200px;     
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    padding: 30px 0;
+  }
