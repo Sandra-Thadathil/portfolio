@@ -1,0 +1,30 @@
+.contact-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;                
+  }
+.contact-icons a {
+    transition: transform 0.2s;
+    display: inline-block; 
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .contact-icons a:hover {
+    transform: scale(1.2);
+    color: rgb(168, 224, 236);
+  }
+  .contact-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .contact-info {
+    color: rgb(194, 194, 187);
+    font-size: 25px;
+    line-height: 1.6;
+    flex: 1 1 auto;         
+    max-width: 450px;       
+  }

@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Work from './pages/Work'
 import Project from './pages/Project'
+import Contact from './pages/Contact'
 import  ParticlesComponent from './components/particles'
 import './App.css'
 import NavBar from './components/NavBar';
@@ -26,11 +27,15 @@ export default function App() {
                 <div className="section-spacing">
                     <Project />
                 </div> 
+                <div className="section-spacing">
+                    <Contact />
+                </div> 
               </>
             }>
           </Route>
           <Route path="/work" element={<Work />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
     </div>
