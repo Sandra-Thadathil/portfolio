@@ -43,12 +43,12 @@
     }
   
     .project-title {
-      font-size: large;
+      font-size: medium;
     }
   
     .project-description {
-      font-size: small;
-      line-height: 1.4;
+      font-size: x-small;
+      line-height: 1;
     }
   
     .project-image {

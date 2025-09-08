@@ -38,13 +38,13 @@
     }
   
     .sub-title {
-      font-size: medium;
-      line-height: 1.4;
+      font-size: small;
+      line-height: 1;
       text-align: center;
     }
   
     .list li {
-      font-size: small;
+      font-size: x-small;
       margin: 8px 0;
     }
   }
