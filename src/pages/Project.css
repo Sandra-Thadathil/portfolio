@@ -36,3 +36,24 @@
     border-radius: 8px;
     padding: 30px 0;
   }
+
+  @media (max-width: 480px) {
+    .individual-projects {
+      padding: 10px 15px;
+    }
+  
+    .project-title {
+      font-size: large;
+    }
+  
+    .project-description {
+      font-size: small;
+      line-height: 1.4;
+    }
+  
+    .project-image {
+      height: auto;
+      max-width: 100%;
+      padding: 15px 0;
+    }
+  }

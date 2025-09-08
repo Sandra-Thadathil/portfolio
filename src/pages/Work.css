@@ -31,3 +31,20 @@
     margin: 10px 0; 
     line-height: 1.6;
 }
+
+@media (max-width: 480px) {
+    .experience-section {
+      padding: 15px;
+    }
+  
+    .sub-title {
+      font-size: medium;
+      line-height: 1.4;
+      text-align: center;
+    }
+  
+    .list li {
+      font-size: small;
+      margin: 8px 0;
+    }
+  }
