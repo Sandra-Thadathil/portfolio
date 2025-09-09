@@ -1,12 +1,13 @@
 import './Project.css'
 import huffmanImage from '../assets/huffmanScreenshot.png'
 import boardGame from '../assets/BoardGame.png'
+import portfolioImage from '../assets/portfolio.png'
 import Motion from '../components/Motion';
+
 export default function Project() {
     return (
         <div  className="project-container">
                 <h1 className ='main-title'>Projects</h1>
-
                 <Motion direction ='right'>
                     <div className='individual-projects'>
                         <h2 className="project-title">Interactive Particle System</h2>
@@ -19,6 +20,16 @@ export default function Project() {
                         <p className="project-description">A fun, interactive particle system made with HTML and JavaScript. 
                             Just move your mouse around, and watch particles pop up and float around! 
                             It’s super relaxing to play with.</p>
+                    </div>
+                </Motion>
+
+                <Motion direction ='right'>
+                    <div className='individual-projects'>
+                        <h2 className="project-title">Portfolio Website</h2>
+                        <a href="https://github.com/Sandra-Thadathil/portfolio" target="_blank" rel="link to the project">
+                            <img src={portfolioImage} alt="Website Image" className="project-image" />
+                         </a>
+                        <p className="project-description">A personal portfolio website built with React where I showcase my projects, work experience, and a bit about me.</p>
                     </div>
                 </Motion>
 
