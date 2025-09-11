@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .section {
   position: relative;
   min-height: 100px;
@@ -21,17 +22,18 @@ body {
 .app-wrapper {
   position: relative;
   min-height: 100vh;
+  z-index: 1;
 }
 
 nav {
   position: relative;
-  z-index: 10;
   padding: 1rem;
+  z-index: 5;
 }
 
 main {
   position: relative;
-  z-index: 10; 
+  z-index: 5; 
   padding: 1rem;
 }
 
