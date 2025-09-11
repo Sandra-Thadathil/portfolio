@@ -45,6 +45,7 @@
     position: fixed;
     top: 1rem;
     left: 1rem;
+    font-size: 2rem;
   }
 
   .nav-links {
@@ -52,12 +53,21 @@
     flex-direction: column;
     background-color:rgb(82, 79, 79);
     position: fixed;
-    top: 3rem;
-    left: 1rem;
-    right: 1rem;
-    padding: 1rem;
+    top: 3.5rem;
+    width: 30%; 
+    padding: .5rem;
     border-radius: 5px;
     z-index: 20; 
+  }
+
+
+  .nav-links.open {
+    display: flex; 
+  }
+
+  .nav-links a {
+    margin: 1rem 0; 
+    text-align: center; 
   }
 
  
